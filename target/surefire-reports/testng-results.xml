@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-11T04:08:26Z" name="Suite" finished-at="2021-01-11T04:10:02Z" duration-ms="95886">
+    <groups>
+    </groups>
+    <test started-at="2021-01-11T04:08:26Z" name="Test" finished-at="2021-01-11T04:10:02Z" duration-ms="95886">
+      <class name="com.academy.E2EProject.ValidateTitle">
+        <test-method signature="basePageNavigation()[pri:0, instance:com.academy.E2EProject.ValidateTitle@5f9b2141]" started-at="2021-01-10T23:09:34Z" name="basePageNavigation" finished-at="2021-01-10T23:09:34Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- com.academy.E2EProject.ValidateTitle -->
+      <class name="com.academy.E2EProject.HomePage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.HomePage@33990a0c]" started-at="2021-01-10T23:08:26Z" name="setUp" finished-at="2021-01-10T23:08:50Z" duration-ms="23465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@15aab8c6]" started-at="2021-01-10T23:08:50Z" name="setUp" finished-at="2021-01-10T23:09:11Z" duration-ms="21505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.ValidateTitle@5f9b2141]" started-at="2021-01-10T23:09:11Z" name="setUp" finished-at="2021-01-10T23:09:33Z" duration-ms="22008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.academy.E2EProject.HomePage@33990a0c]" started-at="2021-01-10T23:09:34Z" name="basePageNavigation" data-provider="getData" finished-at="2021-01-10T23:09:39Z" duration-ms="4582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.HomePage@33990a0c]" started-at="2021-01-10T23:10:01Z" name="tearDown" finished-at="2021-01-10T23:10:02Z" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@15aab8c6]" started-at="2021-01-10T23:10:02Z" name="tearDown" finished-at="2021-01-10T23:10:02Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.ValidateTitle@5f9b2141]" started-at="2021-01-10T23:10:02Z" name="tearDown" finished-at="2021-01-10T23:10:02Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.academy.E2EProject.HomePage -->
+      <class name="com.academy.E2EProject.ValidateNavBar">
+        <test-method signature="basePageNavigation()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@15aab8c6]" started-at="2021-01-10T23:09:39Z" name="basePageNavigation" finished-at="2021-01-10T23:10:01Z" duration-ms="22013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- com.academy.E2EProject.ValidateNavBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
