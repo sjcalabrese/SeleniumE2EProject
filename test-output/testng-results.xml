@@ -2,54 +2,54 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-05T13:21:07Z" name="Suite" finished-at="2021-02-05T13:21:21Z" duration-ms="13360">
+  <suite started-at="2021-02-05T13:58:51Z" name="Suite" finished-at="2021-02-05T13:59:01Z" duration-ms="10737">
     <groups>
     </groups>
-    <test started-at="2021-02-05T13:21:07Z" name="Validating Log in" finished-at="2021-02-05T13:21:07Z" duration-ms="94">
+    <test started-at="2021-02-05T13:58:51Z" name="Validating Log in" finished-at="2021-02-05T13:58:51Z" duration-ms="139">
       <class name="com.academy.E2EProject.HomePage">
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.HomePage@549621f3]" started-at="2021-02-05T08:21:07Z" name="tearDown" finished-at="2021-02-05T08:21:07Z" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.HomePage@549621f3]" started-at="2021-02-05T08:58:51Z" name="tearDown" finished-at="2021-02-05T08:58:51Z" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.academy.E2EProject.HomePage -->
     </test> <!-- Validating Log in -->
-    <test started-at="2021-02-05T13:21:07Z" name="Validating Title" finished-at="2021-02-05T13:21:21Z" duration-ms="13345">
-      <class name="com.academy.E2EProject.ValidateTitle">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.ValidateTitle@37f21974]" started-at="2021-02-05T08:21:07Z" name="setUp" finished-at="2021-02-05T08:21:20Z" duration-ms="12980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="basePageNavigation()[pri:0, instance:com.academy.E2EProject.ValidateTitle@37f21974]" started-at="2021-02-05T08:21:20Z" name="basePageNavigation" finished-at="2021-02-05T08:21:20Z" duration-ms="75" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.ValidateTitle@37f21974]" started-at="2021-02-05T08:21:20Z" name="tearDown" finished-at="2021-02-05T08:21:21Z" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.academy.E2EProject.ValidateTitle -->
-    </test> <!-- Validating Title -->
-    <test started-at="2021-02-05T13:21:07Z" name="Validating Nav Bar" finished-at="2021-02-05T13:21:21Z" duration-ms="13360">
+    <test started-at="2021-02-05T13:58:51Z" name="Validating Nav Bar" finished-at="2021-02-05T13:58:58Z" duration-ms="7176">
       <class name="com.academy.E2EProject.HomePage">
-        <test-method is-config="true" signature="logIn()[pri:0, instance:com.academy.E2EProject.HomePage@549621f3]" started-at="2021-02-05T08:20:40Z" name="logIn" finished-at="2021-02-05T08:21:07Z" duration-ms="27182" status="PASS">
+        <test-method is-config="true" signature="logIn()[pri:0, instance:com.academy.E2EProject.HomePage@549621f3]" started-at="2021-02-05T08:58:42Z" name="logIn" finished-at="2021-02-05T08:58:51Z" duration-ms="9039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
       </class> <!-- com.academy.E2EProject.HomePage -->
       <class name="com.academy.E2EProject.ValidateNavBar">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@6e9319f]" started-at="2021-02-05T08:21:07Z" name="setUp" finished-at="2021-02-05T08:21:20Z" duration-ms="12385" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@6e9319f]" started-at="2021-02-05T08:58:51Z" name="setUp" finished-at="2021-02-05T08:58:57Z" duration-ms="6718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="basePageNavigation()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@6e9319f]" started-at="2021-02-05T08:21:20Z" name="basePageNavigation" finished-at="2021-02-05T08:21:20Z" duration-ms="372" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@6e9319f]" started-at="2021-02-05T08:58:57Z" name="basePageNavigation" finished-at="2021-02-05T08:58:58Z" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@6e9319f]" started-at="2021-02-05T08:21:20Z" name="tearDown" finished-at="2021-02-05T08:21:21Z" duration-ms="565" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.ValidateNavBar@6e9319f]" started-at="2021-02-05T08:58:58Z" name="tearDown" finished-at="2021-02-05T08:58:58Z" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.academy.E2EProject.ValidateNavBar -->
     </test> <!-- Validating Nav Bar -->
+    <test started-at="2021-02-05T13:58:51Z" name="Validating Title" finished-at="2021-02-05T13:59:01Z" duration-ms="10737">
+      <class name="com.academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.academy.E2EProject.ValidateTitle@37f21974]" started-at="2021-02-05T08:58:51Z" name="setUp" finished-at="2021-02-05T08:59:01Z" duration-ms="10554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="basePageNavigation()[pri:0, instance:com.academy.E2EProject.ValidateTitle@37f21974]" started-at="2021-02-05T08:59:01Z" name="basePageNavigation" finished-at="2021-02-05T08:59:01Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.academy.E2EProject.ValidateTitle@37f21974]" started-at="2021-02-05T08:59:01Z" name="tearDown" finished-at="2021-02-05T08:59:01Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.academy.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title -->
   </suite> <!-- Suite -->
 </testng-results>

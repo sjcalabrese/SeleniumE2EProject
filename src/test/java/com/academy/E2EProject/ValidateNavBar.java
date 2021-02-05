@@ -15,7 +15,7 @@ import com.academy.E2EProject.pageObject.LandingPage;
 
 public class ValidateNavBar extends Base {
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(Base.class.getName());
+	public static Logger log = LogManager.getLogger(ValidateNavBar.class.getName());
 	@BeforeTest
 	public void setUp() throws IOException {
 		driver = initializeDriver();

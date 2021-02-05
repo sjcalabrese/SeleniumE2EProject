@@ -19,7 +19,7 @@ import com.academy.E2EProject.pageObject.LoginPage;
 
 public class ValidateTitle extends Base {
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(Base.class.getName());
+	public static Logger log = LogManager.getLogger(ValidateTitle.class.getName());
 	@BeforeTest
 	public void setUp() throws IOException {
 		driver = initializeDriver();
