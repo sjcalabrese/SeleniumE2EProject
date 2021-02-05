@@ -20,7 +20,7 @@ public class Base {
 		//chrome
 		//firefox
 		
-		FileInputStream fis = new FileInputStream("/home/sal/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/E2EProject/src/main/java/com/academy/E2EProject/resources/data.properties");
+		FileInputStream fis = new FileInputStream("/home/sal/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/SeleniumE2EProject/src/main/java/com/academy/E2EProject/resources/data.properties");
 		
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");

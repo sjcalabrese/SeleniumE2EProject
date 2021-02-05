@@ -1,26 +1,24 @@
 package com.academy.E2EProject;
 
-import org.testng.annotations.Test;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 import com.academy.E2EProject.pageObject.LandingPage;
 import com.academy.E2EProject.pageObject.LoginPage;
 
 public class HomePage extends Base {
-
+	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(Base.class.getName());
 	@BeforeSuite
 	public void logIn() throws IOException {
 		driver = initializeDriver();
+		log.info("Driver is initialized.");
 		LandingPage landing = new LandingPage(driver);
 		driver.get(prop.getProperty("url"));
 		
